@@ -1,0 +1,15 @@
+<ion-view view-title="Book a Cab">
+  <ion-content>
+		<div id="map" data-tap-disabled="true"></div>
+		<marker coords="marker.coords"></marker>
+		<div class="button-bar icon-top">
+		<a href="#" id="closest" class="button button-royal icon ion-model-s icon-left">5km </a>
+		<button class="button button-balanced icon ion-model-s icon-left">15km</button>
+		<a href="#" class="button button-calm icon ion-model-s icon-left">14km </a> </div>
+		<div ng-controller="MapCtrl">
+		<button id="locateMe" class="button button-block button-positive ion-ios-navigate icon-left">
+			Find a Cab
+		</button>
+		</div>
+	</ion-content>
+</ion-view>
